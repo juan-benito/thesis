@@ -1,0 +1,430 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Aslam2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c9416e58d512a96bfa836ca4e74ac265}{%
+           family={Aslam},
+           familyi={A\bibinitperiod},
+           given={Mughees},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a6ef046657adaaa0bc8c9c12e790642}{%
+           family={Baffoe-Twum},
+           familyi={B\bibinithyphendelim T\bibinitperiod},
+           given={Edmund},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4af772976a7eecc0f115c24980e60e03}{%
+           family={Saleem},
+           familyi={S\bibinitperiod},
+           given={Farhan},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Ital Publication}%
+      }
+      \strng{namehash}{759e2faf8f788b55eb8f0260bb26a775}
+      \strng{fullhash}{29e422e3a3e3578f94e3750446662977}
+      \strng{bibnamehash}{29e422e3a3e3578f94e3750446662977}
+      \strng{authorbibnamehash}{29e422e3a3e3578f94e3750446662977}
+      \strng{authornamehash}{759e2faf8f788b55eb8f0260bb26a775}
+      \strng{authorfullhash}{29e422e3a3e3578f94e3750446662977}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Civil Engineering Journal}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{{D}esign {C}hanges in {C}onstruction {P}rojects {–} {C}auses and {Impact on the Cost}}
+      \field{volume}{5}
+      \field{year}{2019}
+      \field{pages}{1647\bibrangedash 1655}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.28991/cej-2019-03091360
+      \endverb
+    \endentry
+    \entry{BID2018}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=794336cd3ccb259f88d8e57765fdaf5c}{%
+           family={{Banco Interamericano de Desarrollo}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{794336cd3ccb259f88d8e57765fdaf5c}
+      \strng{fullhash}{794336cd3ccb259f88d8e57765fdaf5c}
+      \strng{bibnamehash}{794336cd3ccb259f88d8e57765fdaf5c}
+      \strng{authorbibnamehash}{794336cd3ccb259f88d8e57765fdaf5c}
+      \strng{authornamehash}{794336cd3ccb259f88d8e57765fdaf5c}
+      \strng{authorfullhash}{794336cd3ccb259f88d8e57765fdaf5c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{month}{9}
+      \field{title}{{Gasto público en América Latina registra ineficiencias de 4,4 por ciento del PIB: estudio BID}}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.iadb.org/es/noticias/gasto-publico-en-america-latina-registra-ineficiencias-de-44-del-pib-estudio-bid
+      \endverb
+      \verb{url}
+      \verb https://www.iadb.org/es/noticias/gasto-publico-en-america-latina-registra-ineficiencias-de-44-del-pib-estudio-bid
+      \endverb
+    \endentry
+    \entry{CGRP2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cf8e71c573406376a9845b0d28b7cfd6}{%
+           family={{Contraloría General de la República del Perú}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{cf8e71c573406376a9845b0d28b7cfd6}
+      \strng{fullhash}{cf8e71c573406376a9845b0d28b7cfd6}
+      \strng{bibnamehash}{cf8e71c573406376a9845b0d28b7cfd6}
+      \strng{authorbibnamehash}{cf8e71c573406376a9845b0d28b7cfd6}
+      \strng{authornamehash}{cf8e71c573406376a9845b0d28b7cfd6}
+      \strng{authorfullhash}{cf8e71c573406376a9845b0d28b7cfd6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{month}{4}
+      \field{title}{{Reporte de Obras en el Territorio Nacional a abril 2023}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.gob.pe/institucion/contraloria/informes-publicaciones/4157828-reporte-de-obras-paralizadas-en-el-territorio-nacional-a-abril-2023
+      \endverb
+      \verb{url}
+      \verb https://www.gob.pe/institucion/contraloria/informes-publicaciones/4157828-reporte-de-obras-paralizadas-en-el-territorio-nacional-a-abril-2023
+      \endverb
+    \endentry
+    \entry{CuartoPoder2022}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3899f0217136c215dfa3d52564b7d106}{%
+           family={{Cuarto Poder}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{3899f0217136c215dfa3d52564b7d106}
+      \strng{fullhash}{3899f0217136c215dfa3d52564b7d106}
+      \strng{bibnamehash}{3899f0217136c215dfa3d52564b7d106}
+      \strng{authorbibnamehash}{3899f0217136c215dfa3d52564b7d106}
+      \strng{authornamehash}{3899f0217136c215dfa3d52564b7d106}
+      \strng{authorfullhash}{3899f0217136c215dfa3d52564b7d106}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{month}{8}
+      \field{title}{La ineficiencia y corrupción dejan a su paso cientos de obras públicas paralizadas}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://youtu.be/gFqAz2P967I
+      \endverb
+      \verb{url}
+      \verb https://youtu.be/gFqAz2P967I
+      \endverb
+    \endentry
+    \entry{FigueroaVillarreal2022}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d3f3550eb69ce6ab5eae3ff532ef723c}{%
+           family={Figueroa\bibnamedelima Villarreal},
+           familyi={F\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Carlomagno\bibnamedelima Jesus},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Nacional José Faustino Sánchez Carrión}%
+      }
+      \strng{namehash}{d3f3550eb69ce6ab5eae3ff532ef723c}
+      \strng{fullhash}{d3f3550eb69ce6ab5eae3ff532ef723c}
+      \strng{bibnamehash}{d3f3550eb69ce6ab5eae3ff532ef723c}
+      \strng{authorbibnamehash}{d3f3550eb69ce6ab5eae3ff532ef723c}
+      \strng{authornamehash}{d3f3550eb69ce6ab5eae3ff532ef723c}
+      \strng{authorfullhash}{d3f3550eb69ce6ab5eae3ff532ef723c}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Gestión de riesgos en la planificación de la ejecución de obra de la institución educativa Santo Tomás de Cochamarca, Oyón, 2021}}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb http://repositorio.unjfsc.edu.pe/handle/UNJFSC/5921
+      \endverb
+      \verb{url}
+      \verb http://repositorio.unjfsc.edu.pe/handle/UNJFSC/5921
+      \endverb
+    \endentry
+    \entry{FloresBedon2022}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=10f54beffb9f74feeed8a01f02dcde19}{%
+           family={Flores\bibnamedelima Bedon},
+           familyi={F\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Miguel\bibnamedelima Angel},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Nacional Hermilio Valdizán}%
+      }
+      \strng{namehash}{10f54beffb9f74feeed8a01f02dcde19}
+      \strng{fullhash}{10f54beffb9f74feeed8a01f02dcde19}
+      \strng{bibnamehash}{10f54beffb9f74feeed8a01f02dcde19}
+      \strng{authorbibnamehash}{10f54beffb9f74feeed8a01f02dcde19}
+      \strng{authornamehash}{10f54beffb9f74feeed8a01f02dcde19}
+      \strng{authorfullhash}{10f54beffb9f74feeed8a01f02dcde19}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Evaluación de la variación presupuestal en las obras ejecutadas por impuestos y por contrata, en el Gobierno Regional Ucayali, período 2019}}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://repositorio.unheval.edu.pe/handle/20.500.13080/8426
+      \endverb
+      \verb{url}
+      \verb https://repositorio.unheval.edu.pe/handle/20.500.13080/8426
+      \endverb
+    \endentry
+    \entry{FontanaBecerra2022}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f21e6580c3f5f16c9515a8cbe89da6ca}{%
+           family={Fontana\bibnamedelima Becerra},
+           familyi={F\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Paolo\bibnamedelima Franco},
+           giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b1e2fa99f1a0e953116cf4c98edb11b}{%
+           family={Quispe\bibnamedelima Zinanyuca},
+           familyi={Q\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           given={Medaly\bibnamedelima Joselyn},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Tecnológica del Perú}%
+      }
+      \strng{namehash}{5da4f4265936d4a0eef276b284382d8c}
+      \strng{fullhash}{8bed3d7a2013eacd67c7641073c8874e}
+      \strng{bibnamehash}{8bed3d7a2013eacd67c7641073c8874e}
+      \strng{authorbibnamehash}{8bed3d7a2013eacd67c7641073c8874e}
+      \strng{authornamehash}{5da4f4265936d4a0eef276b284382d8c}
+      \strng{authorfullhash}{8bed3d7a2013eacd67c7641073c8874e}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Las ampliaciones de plazo en obras públicas y su relación con la penalidad por mora en la Municipalidad Distrital de Cerro Colorado 2020-2021}}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://hdl.handle.net/20.500.12867/6848
+      \endverb
+      \verb{url}
+      \verb https://hdl.handle.net/20.500.12867/6848
+      \endverb
+    \endentry
+    \entry{MachadoYnquillay2021}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d82ac7c6b484ca6ec230ce0f81d55eea}{%
+           family={Machado\bibnamedelima Ynquillay},
+           familyi={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           given={Karina\bibnamedelima Milagros},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9cdf3b74263ee8ae6e3a60cfd9f568a}{%
+           family={Puma\bibnamedelima Huaman},
+           familyi={P\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Luis\bibnamedelima Miguel},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Andina del Cusco}%
+      }
+      \strng{namehash}{80aef361a59439930865422d8f753bd5}
+      \strng{fullhash}{05e93e33f953cb8313444f3548a8d63c}
+      \strng{bibnamehash}{05e93e33f953cb8313444f3548a8d63c}
+      \strng{authorbibnamehash}{05e93e33f953cb8313444f3548a8d63c}
+      \strng{authornamehash}{80aef361a59439930865422d8f753bd5}
+      \strng{authorfullhash}{05e93e33f953cb8313444f3548a8d63c}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Análisis de riesgos para la determinación de la variación costo--tiempo en la planificación de la obra “Construcción Integral Sistema de Riego Pampaconga--Limatambo--Anta--Cusco” ejecutado por el Proyecto Especial Sierra Centro Sur}}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://hdl.handle.net/20.500.12557/4336
+      \endverb
+      \verb{url}
+      \verb https://hdl.handle.net/20.500.12557/4336
+      \endverb
+    \endentry
+    \entry{Mansur2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4c4732c08c5f1d64ac7503ef3af43b5e}{%
+           family={Mansur},
+           familyi={M\bibinitperiod},
+           given={Shaiful\bibnamedelima Amri},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a18478ccf149cb420fcf811f6e1b4640}{%
+           family={Zin},
+           familyi={Z\bibinitperiod},
+           given={Rosli\bibnamedelima Mohamad},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=acab4f6a06aa66ff03a473b007084e01}{%
+           family={Linbo},
+           familyi={L\bibinitperiod},
+           given={Liu},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{6b4ec37e010089fefb0f1a508120e957}
+      \strng{fullhash}{0fa43c3eb7b2592f6c5e749f186cede4}
+      \strng{bibnamehash}{0fa43c3eb7b2592f6c5e749f186cede4}
+      \strng{authorbibnamehash}{0fa43c3eb7b2592f6c5e749f186cede4}
+      \strng{authornamehash}{6b4ec37e010089fefb0f1a508120e957}
+      \strng{authorfullhash}{0fa43c3eb7b2592f6c5e749f186cede4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{IOP} Conference Series: Materials Science and Engineering}
+      \field{month}{9}
+      \field{number}{1}
+      \field{title}{{Components of Cost Overrun in China Construction Projects}}
+      \field{volume}{620}
+      \field{year}{2019}
+      \field{pages}{012081}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1757-899X/620/1/012081
+      \endverb
+    \endentry
+    \entry{Plebankiewicz2018}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=27da1bff2d7fb883186ab6559087f7fa}{%
+           family={Plebankiewicz},
+           familyi={P\bibinitperiod},
+           given={Edyta},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{27da1bff2d7fb883186ab6559087f7fa}
+      \strng{fullhash}{27da1bff2d7fb883186ab6559087f7fa}
+      \strng{bibnamehash}{27da1bff2d7fb883186ab6559087f7fa}
+      \strng{authorbibnamehash}{27da1bff2d7fb883186ab6559087f7fa}
+      \strng{authornamehash}{27da1bff2d7fb883186ab6559087f7fa}
+      \strng{authorfullhash}{27da1bff2d7fb883186ab6559087f7fa}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sustainability}
+      \field{month}{11}
+      \field{number}{12}
+      \field{title}{Model of predicting cost overrun in construction projects}
+      \field{volume}{10}
+      \field{year}{2018}
+      \field{pages}{4387}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.3390/su10124387
+      \endverb
+    \endentry
+    \entry{Susanti2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4b88f41c3f4b8dc015d1ac6ffc3284b4}{%
+           family={Susanti},
+           familyi={S\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=775b45bca300fb4fb16744f652f356cd}{%
+           family={Nurdiana},
+           familyi={N\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{362e53494e26a8b4313f62ebbb6b7121}
+      \strng{fullhash}{86326ebaef3008e25e1b7db52cba4238}
+      \strng{bibnamehash}{86326ebaef3008e25e1b7db52cba4238}
+      \strng{authorbibnamehash}{86326ebaef3008e25e1b7db52cba4238}
+      \strng{authornamehash}{362e53494e26a8b4313f62ebbb6b7121}
+      \strng{authorfullhash}{86326ebaef3008e25e1b7db52cba4238}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{IOP} Conference Series: Earth and Environmental Science}
+      \field{month}{5}
+      \field{number}{1}
+      \field{title}{{Cost Overrun in Construction Projects in Indonesia}}
+      \field{volume}{506}
+      \field{year}{2020}
+      \field{pages}{012039}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1755-1315/506/1/012039
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

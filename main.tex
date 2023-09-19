@@ -1,0 +1,173 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Define Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[spanish,12pt,a4paper,twoside,openany]{book}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Using Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[left=1.00in, right=1.00in, top=1.00in, bottom=1.00in]{geometry}
+\usepackage{graphicx}
+\graphicspath{{img/}}  % Incluir la ruta de la carpeta de imagenes
+\usepackage{graphics} %Incluir imagenes pdf
+\usepackage{float}
+\usepackage{caption}
+\usepackage{adjustbox}  % Rotar imagenes
+\usepackage{subcaption}  %Ajustar el ancho caption
+%INCLUIR PDF
+\usepackage{pdfpages}  %incluir pdf
+\usepackage{pdflscape} %Rotar una pagina determinada
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\setlength{\jot}{1.5ex}
+\setlength{\abovedisplayskip}{1.5ex}
+\setlength{\belowdisplayskip}{1.5ex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{empheq}
+\usepackage{mdframed}
+\usepackage{booktabs}
+\usepackage{longtable} 
+\usepackage{lscape}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{color}
+\usepackage{psfrag}
+\usepackage{pgfplots}
+\usepackage{bm}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes}
+\usepackage[spanish,mexico]{babel}
+%%%%%%%%%%%%%%%%%%%%%%%%%% Change font %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[T1]{fontenc}
+\usepackage{helvet}  % Paquete para cambiar la fuente a Helvetica
+\renewcommand{\familydefault}{\sfdefault} % Configurar la familia de fuentes como sans serif (Helvetica)
+\usepackage{setspace}
+%\singlespacing  % Esaciado simple
+%\onehalfspacing % Espaciado 1.5
+\doublespacing
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amssymb}
+\usepackage{appendix}
+%%%%%%%%%%%%%%%%%%%%%%%%%% Color define %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{xcolor}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Referencia Bibliográfica %%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{csquotes}
+\DeclareUnicodeCharacter{0301}{\'{e}} 
+\usepackage[style=iso-authoryear]{biblatex}
+\addbibresource{Bibliografia/Article.bib}
+\addbibresource{Bibliografia/Bibliografia_2023_690_ok.bib}
+\addbibresource{Bibliografia/Book.bib}
+\addbibresource{Bibliografia/Misc.bib}
+\addbibresource{Bibliografia/Standard.bib}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Creative Commnons %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[
+type={CC},
+modifier={by-nc-nd},
+version={4.0},
+]{doclicense}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Color links %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	citecolor=orange,
+	linkcolor=black, %Cambiar al color de preferencia
+	filecolor=magenta,      
+	urlcolor=cyan,
+	pdftitle={Overleaf Example},
+	pdfpagemode=FullScreen,
+}
+\urlstyle{same}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%% Chapter Configuration %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\thechapter}{\Roman{chapter}} % Cambiar a números romanos
+\renewcommand{\theequation}{\arabic{chapter}.\arabic{equation}}
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+\renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}
+\renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
+
+\usepackage{titlesec}  % Centrar capitulo
+\titleformat{\chapter}[display]
+{\normalfont\centering\LARGE\bfseries}{\MakeUppercase{\chaptertitlename}\ \thechapter}{0pt}{}
+\titlespacing*{\chapter}{0pt}{-45pt}{20pt} % Ajusta los valores según tus preferencias
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Configuration Table of contents %%%%%%%%%%%%%%%%%%
+\usepackage{tocloft}
+\usepackage{titletoc}
+
+\titlecontents{chapter}[1.5em]
+{\vspace{10pt}\bfseries} % Formato del título
+{\MakeUppercase{CAPÍTULO} \thecontentslabel {\titlerule*[0.7pc]{.} \contentspage} \\ } % Etiqueta (número de capítulo) Aquí se configura \\
+{} % Espacio entre la etiqueta y el título
+{\titlerule*[0.7pc]{.}\contentspage} % Rellenado y número de página
+
+\titlecontents{section}[4.5em]
+{} % Sin formato del título
+{\thecontentslabel\hspace{1em}} % Etiqueta (número de sección)
+{} % Espacio entre la etiqueta y el título
+{\titlerule*[0.7pc]{.}\contentspage} % Rellenado y número de página
+
+\renewcommand{\cftchapfont}{\normalfont\bfseries}
+\renewcommand{\cftsecnumwidth}{3em} % Ajusta el ancho del número de sección
+\renewcommand{\cftsubsecnumwidth}{3em} % Ajusta el ancho del número de subsección
+\setlength{\cftchapnumwidth}{4em} % Ajusta el espacio para el número de capítulo
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%% Encabezados %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr}
+\pagestyle{plain}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE,LO]{\leftmark}
+\renewcommand{\headrulewidth}{0.4pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%% Acronym %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[acronymlists={label-list}]{glossaries}
+\newacronym{html}{HTML}{Hypertext Markup Language}
+\newacronym{css}{CSS}{Hojas de Estilo en Cascada}
+\newacronym{js}{JS}{JavaScript}
+\newacronym{pip}{PIP}{Proyectos de inversión pública}
+\newacronym{ong}{ONG}{Organismo no gubernamental}
+\makeglossaries
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Title}
+\author{Juan Benito Quintana Arone}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{showframe}
+
+\begin{document}
+%\maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frontmatter
+\input{lib/0.0.Introduccion/0.0.carat.tex}
+\input{lib/0.0.Introduccion/0.1.apr_jur.tex}
+\input{lib/0.0.Introduccion/0.2.crea_comn.tex}
+\input{lib/0.0.Introduccion/0.3.ded.tex}
+\input{lib/0.0.Introduccion/0.4.acknowledgment.tex}
+\tableofcontents
+\newpage
+\listoftables
+\newpage
+\listoffigures
+\newpage
+\printglossary[type=\acronymtype, title={Siglas y Acrónimos}]
+%\input{lib/0.0.Introduccion/0.5.sig_acronym.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter
+\input{lib/0.0.Introduccion/0.6.resum.tex}
+\input{lib/1.0.Chapter1/chapter1.tex}
+\input{lib/2.0.Chapter2/chapter2.tex}
+\input{lib/3.0.Chapter3/chapter3.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\backmatter
+\printbibliography
+
+\end{document}
